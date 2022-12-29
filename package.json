@@ -1,0 +1,20 @@
+{
+  "name": "modern-portfolio",
+  "version": "1.0.0",
+  "description": "This is the updated version of my portfolio website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timbcodes/modern-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timbcodes/modern-portfolio/issues"
+  },
+  "homepage": "https://github.com/timbcodes/modern-portfolio#readme"
+}
