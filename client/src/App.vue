@@ -14,17 +14,23 @@
   </div>
 </template>
 <script>
+import TypeWriter from "@/js/scripts/typewriter-script.js";
 export default {
   name: "App",
   data() {
     return {
       displayWelcome: true,
+      words: ["codes", "designs", "develops", "creates", "consults"],
+      delay: 5000,
     };
   },
   mounted() {
     setTimeout(() => {
       this.displayWelcome = false;
     }, 3000);
+  },
+  created() {
+    new TypeWriter(this.words, this.delay);
   },
 };
 </script>

@@ -7,31 +7,14 @@
   </div>
 </template>
 <script>
-import { mapGetters, mapMutations } from "vuex";
-import TypeWriter from "@/js/scripts/typewriter-script.js";
+import { mapGetters } from "vuex";
 export default {
   name: "IntroTypewriter",
-  data() {
-    return {
-      words: ["codes", "designs", "develops", "creates", "consults"],
-      delay: 5000,
-    };
-  },
   computed: {
     ...mapGetters(["getTypewriterText"]),
     textElement() {
       return this.getTypewriterText;
     },
-  },
-  methods: {
-    ...mapMutations(["setTypewriterText"]),
-    resetTypewrtierText() {
-      this.setTypewriterText("");
-    },
-  },
-  created() {
-    this.resetTypewrtierText();
-    new TypeWriter(this.words, this.delay);
   },
 };
 </script>
