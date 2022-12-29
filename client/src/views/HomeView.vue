@@ -29,6 +29,7 @@ export default {
     width: 25%;
     height: 100%;
     @include flex(column);
+    gap: 1em;
   }
   .content-side {
     width: 75%;
