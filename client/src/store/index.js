@@ -1,9 +1,8 @@
 import { createStore } from "vuex";
+import TYPEWRITER from "./modules/TypeWriter/index";
 
 export default createStore({
-  state: {},
-  getters: {},
-  mutations: {},
-  actions: {},
-  modules: {},
+  modules: {
+    TYPEWRITER,
+  },
 });

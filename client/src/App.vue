@@ -1,30 +1,38 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view />
+  <div class="site-container">
+    <div class="mode-toggle-container">
+      <ModeToggle />
+    </div>
+    <div class="main-content-container">
+      <router-view />
+    </div>
+  </div>
 </template>
-
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
+<script>
+import ModeToggle from "@/components/UI/ModeToggle.vue";
+export default {
+  name: "App",
+  components: {
+    ModeToggle,
+  },
+};
+</script>
+<style lang="scss" scoped>
+@import "@/scss/variables.scss";
+@import "@/scss/mixins.scss";
+.site-container {
+  @include flexCenter;
+  width: 100%;
+  height: 100vh;
+  .mode-toggle-container {
+    position: absolute;
+    bottom: 60px;
+    left: 5px;
+  }
+  .main-content-container {
+    width: calc(100% - 75px);
+    height: calc(100% - 75px);
+    border: 1px solid $portfolioBorder;
   }
 }
 </style>
