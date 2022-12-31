@@ -17,7 +17,7 @@ export default {
         { name: "info", link: "/info" },
         { name: "projects", link: "/projects" },
         { name: "resume", link: "/resume" },
-        { name: "blog", link: "/blog" },
+        // { name: "blog", link: "/blog" },
         { name: "contact", link: "/contact" },
       ],
     };

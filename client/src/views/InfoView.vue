@@ -24,7 +24,7 @@
   </div>
 </template>
 <script>
-import { mapGetters } from "vuex";
+import { mapGetters, mapMutations } from "vuex";
 import IntroTypewriter from "@/components/MainPage/UI/IntroTypewriter.vue";
 import Navigation from "@/components/MainPage/UI/NavBar.vue";
 import SocialLinkout from "@/components/MainPage/UI/SocialLinkout.vue";
@@ -43,6 +43,12 @@ export default {
     SkillSet,
     ProfileArea,
   },
+  methods: {
+    ...mapMutations(["setInfoAbout"]),
+    setAbout() {
+      this.setInfoAbout();
+    },
+  },
   computed: {
     ...mapGetters(["getInfoAbout", "getInfoSkills"]),
     getAbout() {
@@ -51,6 +57,9 @@ export default {
     getSkills() {
       return this.getInfoSkills;
     },
+  },
+  mounted() {
+    this.setAbout();
   },
 };
 </script>
