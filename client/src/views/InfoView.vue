@@ -16,7 +16,9 @@
         <div class="info-controls">
           <InfoNavControls />
         </div>
-        <div class="profile-area"></div>
+        <div class="profile-area">
+          <ProfileArea />
+        </div>
       </div>
     </div>
   </div>
@@ -29,6 +31,7 @@ import SocialLinkout from "@/components/MainPage/UI/SocialLinkout.vue";
 import InfoNavControls from "@/components/InfoPage/UI/InfoNavControls.vue";
 import AboutMe from "@/components/InfoPage/AboutMe.vue";
 import SkillSet from "@/components/InfoPage/SkillSet.vue";
+import ProfileArea from "@/components/InfoPage/UI/ProfileArea.vue";
 export default {
   name: "HomeView",
   components: {
@@ -38,6 +41,7 @@ export default {
     InfoNavControls,
     AboutMe,
     SkillSet,
+    ProfileArea,
   },
   computed: {
     ...mapGetters(["getInfoAbout", "getInfoSkills"]),
