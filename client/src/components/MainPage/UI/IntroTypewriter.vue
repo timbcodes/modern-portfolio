@@ -23,6 +23,7 @@ export default {
 @import "@/scss/mixins.scss";
 .typewriter-container {
   width: 100%;
+  min-width: 250px;
   height: 100px;
   @include flex(column, center, flex-start);
   margin-left: 2em;

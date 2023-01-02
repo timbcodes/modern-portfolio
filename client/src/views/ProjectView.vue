@@ -43,6 +43,8 @@ export default {
   .content-side {
     width: 80%;
     height: 100%;
+    margin-top: 1em;
+    margin-left: 4em;
   }
 }
 </style>

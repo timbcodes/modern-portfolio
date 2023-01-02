@@ -32,7 +32,7 @@ export default {
         title: "Interface",
         image: "interface.png",
         description:
-          "Interface was the first iteration of Borderland's suite of modules designed to streamline floor operations in the wood products manufacturing industry. Interface will be phased out in 2025 and is being replaced by the OnSuite family of applications.",
+          "Interface was the first iteration of Borderland's suite of modules designed to streamline floor operations in the wood products manufacturing industry. The rights to Interface were purchased by Marvin Windows and Doors in 2022. Interface will be phased out in 2025 and is being replaced by the OnSuite family of applications.",
         link: "https://borderlandsoftware.com",
         website: "borderlandsoftware.com",
         launchDate: "Launched: November 2021",

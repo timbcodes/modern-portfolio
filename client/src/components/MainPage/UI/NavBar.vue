@@ -17,7 +17,7 @@ export default {
         { name: "info", link: "/info" },
         { name: "projects", link: "/projects" },
         { name: "resume", link: "/resume" },
-        // { name: "blog", link: "/blog" },
+        // TODO: { name: "blog", link: "/blog" }, We'll add this later when Kirja's save article feature is ready
         { name: "contact", link: "/contact" },
       ],
     };

@@ -15,11 +15,12 @@
           <p>{{ project.description }}</p>
         </div>
         <div class="project-card-links">
-          <div class="project-card-link">
+          <!-- TODO: Add the links back in when the corresponding sites are online -->
+          <!-- <div class="project-card-link">
             <a :href="project.link" target="_blank">
               <p>{{ project.website }}</p>
             </a>
-          </div>
+          </div> -->
         </div>
         <div class="project-launch">
           <p>{{ project.launchDate }}</p>
