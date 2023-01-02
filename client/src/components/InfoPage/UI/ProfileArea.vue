@@ -7,8 +7,7 @@
       <p>
         I'm a senior full-stack developer with over a decade of experience. I
         specialize in building software and applications for the manufacturing,
-        transportation, and agriculture industries. I'm also a passionate
-        educator and mentor, and I love to share my knowledge with others.
+        transportation, and agriculture industries.
       </p>
     </div>
   </div>

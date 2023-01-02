@@ -7,23 +7,19 @@
       </div>
       <SocialLinkout />
     </div>
-    <div class="content-side">
-      <ProjectsDisplay />
-    </div>
+    <div class="content-side"></div>
   </div>
 </template>
 <script>
 import IntroTypewriter from "@/components/MainPage/UI/IntroTypewriter.vue";
 import Navigation from "@/components/MainPage/UI/NavBar.vue";
 import SocialLinkout from "@/components/MainPage/UI/SocialLinkout.vue";
-import ProjectsDisplay from "@/components/ProjectsPage/ProjectsDisplay.vue";
 export default {
   name: "HomeView",
   components: {
     IntroTypewriter,
     Navigation,
     SocialLinkout,
-    ProjectsDisplay,
   },
 };
 </script>

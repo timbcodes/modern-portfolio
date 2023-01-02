@@ -9,9 +9,7 @@
         <p>
           I'm a senior full-stack developer with over a decade of experience. I
           specialize in building software and applications for the
-          manufacturing, transportation, and agriculture industries. I'm also a
-          passionate educator and mentor, and I love to share my knowledge with
-          others.
+          manufacturing, transportation, and agriculture industries.
         </p>
       </div>
     </div>
@@ -48,13 +46,14 @@ export default {
     width: 25%;
     @include flex(row, center, center);
     .summary-text {
-      width: 80%;
+      width: 100%;
       height: 100%;
       line-height: 2rem;
       @include flex(row, flex-end, flex-end);
-      margin-bottom: 5rem;
+      margin-bottom: 2rem;
+      margin-right: 2rem;
       p {
-        font-size: 1rem;
+        font-size: 0.8rem;
         font-weight: 100;
       }
     }

@@ -4,7 +4,6 @@
       <h1>Skillset</h1>
     </div>
     <div class="skillset-menu-bar">
-      <!-- loop through the navItems and create a menu and add a click event to show which button was clicked -->
       <div
         v-for="item in navItems"
         :key="item"
@@ -67,7 +66,7 @@ export default {
     gap: 1em;
     .menu-button {
       min-width: 6em;
-      height: 100%;
+      height: 2rem;
       border: 1px solid $portfolioBorder;
       @include flexCenter(column);
       p {

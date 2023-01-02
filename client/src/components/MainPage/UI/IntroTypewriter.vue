@@ -28,7 +28,7 @@ export default {
   margin-left: 2em;
   h1,
   span {
-    font-size: 3rem;
+    font-size: 2.25rem;
     font-weight: 100;
   }
   span {
