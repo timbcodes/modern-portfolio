@@ -28,10 +28,10 @@
           While in college, tragedy struck. Both of my parents suddenly passed
           away. I tried to continue college as long as possible, but was unable
           due to the cost. In 2006, I returned home to the family farm to work.
-          couldn't run the farm by myself without help, and I didn't have money
-          to to hire any hands. Fortunately, I had an old Peterbilt semi truck
-          we used on the farm for hauling grain. I passed my CDL test three days
-          after my 21st birthday, and immediately got to work.
+          I couldn't run the farm by myself without help, and I didn't have
+          money to to hire any hands. Fortunately, I had an old Peterbilt semi
+          truck truck we used on the farm for hauling grain. I passed my CDL
+          test three days after my 21st birthday, and immediately got to work.
         </p>
         <p>
           Unfortunately, when starting out, money was tight. I needed a website
