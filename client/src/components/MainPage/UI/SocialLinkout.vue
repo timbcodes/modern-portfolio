@@ -11,9 +11,12 @@
       ></a>
     </div>
     <div class="twitter-link">
-      <a href="https://twitter.com/furrycodertrash" target="_blank"
-        ><i class="bi bi-twitter"></i
-      ></a>
+      <!-- <a href="https://twitter.com/furrycodertrash" target="_blank"
+        ><i class="bi bi-twitter"></i -->
+      <!-- ></a> -->
+      <a href="https://www.facebook.com/tdbradford" target="_blank"
+        ><i class="bi bi-facebook"></i>
+      </a>
     </div>
   </div>
 </template>
