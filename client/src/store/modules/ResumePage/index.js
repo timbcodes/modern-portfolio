@@ -11,7 +11,7 @@ export default {
         startDate: "05/2022",
         endDate: "Present",
         description:
-          "Founded a startup for developing software targeted at the manufacturing industry. Our flagship product is OnSuite, a composite set of modules and tools for increasing manufacturing efficiencies on the production floor by collecting information about products and components as they move through the build process. OnSuite also collects data from users on the floor to help engineers and supervisors have a greater insight into the manufacturing process. OnSuite, along with its admin console O.CON are currently used in production at a major wood products manufacturer in the upper Midwest and has been proving itself to be a valuable asset in helping their company deal with supply chain shortages, increase quality control, prevent near miss safety incidents, track maintenance issues, manage rework issues, and increase total customer satisfaction.",
+          "Founded the very first author-owned writing platform where content creators get to share in 100% of the profit they generate. Took Kirja from a blank page to a very advanced stage of development with a projected release date of February 1st, 2023.",
       },
       {
         id: 2,
@@ -21,7 +21,7 @@ export default {
         startDate: "08/2021",
         endDate: "05/2022",
         description:
-          "Principal solo software engineer for the Marvin Windows and Doors Grafton, ND facility. As the sole member of the onsite systems integration and engineering team, the software products that were developed in this role served over 1700 end users both on the production floor and in the front office. The role here revolved around the building of three key applications: Overwatch, Systems Multitool, and Interface. These applications collected data from the machines on the floor (CNC routers, mills, lathes, automated pallet robots, robotic saws, EMS systems, MLC monitors, PLC controllers, ACDs, MBMs, et Al.) and fed that data into the applications for dissemination. The applications would then work with our ERP database to help plan and dispatch orders, monitor breakdown and rework issues, track maintenance tickets, display metrics, generate reports, and more.",
+          "Principal software engineer for the Marvin Windows and Doors facility in Grafton, North Dakota. As the lead member of the onsite operations systems integration and engineering team and the only software engineer, our team designed, architected, and developed software products that would help automate processes and collect data from over 1700 end users on the production floor as well as in the front office. Our team built two key products during this time: Overwatch and Interface.",
       },
       {
         id: 3,
@@ -31,7 +31,7 @@ export default {
         startDate: "07/2017",
         endDate: "07/2021",
         description:
-          "The primary focus of our team’s development efforts revolved around creating digital control systems for our client’s high-end recreational vehicles built by companies such as Jayco, Newell, TMC, Forrest River, Airstream, MCI, and others. Our flagship product was a touchscreen module that could be installed in the vehicle to interact with PLC controllers integrated with the RV’s electrical systems to control primary functions such as climate control, generator standby and run modes, slide-out operation, engine start and idle, door lock operation, and others. Secondary to the touch screen were native iOS and Android mobile applications that could mirror the primary screen’s functionality and could allow the vehicle to be controlled remotely assuming the RV had internet connection.",
+          "Senior software engineering consultant for the team heading up Jayco/Newell Motor Coach's innovative new Aurora touchscreen owner control tablet for the company's high-end line recreational motor coaches. Aurora was an embedded touchscreen controller built into the RV unit and used JavaScript, Express, and Node to call RESTful API endpoints that would operate PLC controllers to allow the owner to operate the vehicle's functionality from a single location, such as climate control settings, generator functions, slide-outs, lighting, and more.",
       },
       {
         id: 4,
@@ -41,7 +41,7 @@ export default {
         startDate: "08/2012",
         endDate: "06/2017",
         description:
-          "Worked on a small internal “Skunk Works” style development team responsible for building the company’s Driveaway software suite. This application encompassed three main functions: driver dispatching and customer tracking, freight tonnage and load planning, and electronic driver logs (using Qualcomm’s API endpoints along with their in-cab satellite-based monitoring systems) to meet FMCSA compliance requirements. This application was able to pull real time data on available loads and tonnage from DAT, CH Robinson, and Landstar load boards and compare with our truck availability to help dispatchers and load planners work in conjunction to maximize truck capacity, coordinate with drivers to ensure home time requirements were met, increase fuel efficiencies, allow the maintenance department to keep up with PMs and prevent breakdowns, and maximize truck uptime.",
+          "Worked on a small internal “Skunk Works” style development team responsible for building the company’s new flagship software suite, Driveaway. Driveaway Consisted of three core modules: customer shipment tracking, driver dispatch, and load planning.",
       },
       {
         id: 5,

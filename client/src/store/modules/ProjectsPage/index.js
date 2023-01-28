@@ -20,7 +20,7 @@ export default {
         image: "onsuite.png",
         description:
           "OnSuite is a desktop-based application aimed directly at the wood products manufacturing industry. OnSuite provides a suite of modules and tools designed to make the manufacturing process more efficient, and helps with impoving employee retention by streamlining repetitive data collection processes.",
-        link: "https://borderlandsoftware.com",
+        link: null,
         website: "borderlandsoftware.com",
         launchDate: "Planned Launch: Quarter 4, 2023",
         status: "In Development",
@@ -33,7 +33,7 @@ export default {
         image: "interface.png",
         description:
           "Interface was the first iteration of Borderland's suite of modules designed to streamline floor operations in the wood products manufacturing industry. The rights to Interface were purchased by Marvin Windows and Doors in 2022. Interface will be phased out in 2025 and is being replaced by the OnSuite family of applications.",
-        link: "https://borderlandsoftware.com",
+        link: null,
         website: "borderlandsoftware.com",
         launchDate: "Launched: November 2021",
         status: "Supported, Not Currently on Sale",

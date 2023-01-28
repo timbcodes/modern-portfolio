@@ -16,11 +16,11 @@
         </div>
         <div class="project-card-links">
           <!-- TODO: Add the links back in when the corresponding sites are online -->
-          <!-- <div class="project-card-link">
+          <div v-if="project.link" class="project-card-link">
             <a :href="project.link" target="_blank">
               <p>{{ project.website }}</p>
             </a>
-          </div> -->
+          </div>
         </div>
         <div class="project-launch">
           <p>{{ project.launchDate }}</p>
