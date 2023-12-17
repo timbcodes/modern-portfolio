@@ -1,15 +1,17 @@
 <template>
-  <div v-if="displayWelcome" class="welcome-container">
-    <div class="welcome-text">
-      <h1>hello there.</h1>
+  <div class="main">
+    <div v-if="displayWelcome" class="welcome-container">
+      <div class="welcome-text">
+        <h1>hello there.</h1>
+      </div>
+      <div class="logo-text">
+        <h2>timb.<span>codes</span>()</h2>
+      </div>
     </div>
-    <div class="logo-text">
-      <h2>timb.<span>codes</span>()</h2>
-    </div>
-  </div>
-  <div v-if="!displayWelcome" class="site-container">
-    <div class="main-content-container">
-      <router-view />
+    <div v-if="!displayWelcome" class="site-container">
+      <div class="main-content-container">
+        <router-view />
+      </div>
     </div>
   </div>
 </template>
